@@ -1,0 +1,126 @@
+body{
+	font-family: 'Roboto', sans-serif;
+	background-color: #e9ebee;
+}
+.facebook-margin{
+	margin-left: 2vw;
+}
+.facebook-margin i{
+	font-size: 150%;
+	color: #fff;
+}
+.navbar{
+	background-color: #4267b2 !important;
+}
+.facebook-margin input{
+	height: 50%;
+	border-radius: 2px;
+	border: none;
+	width: 35vw;
+	margin-left: 5px;
+}
+.navbar ul{
+	margin-bottom: 0;
+	margin-right: 15%;
+}
+.text-small{
+	font-size: 13px;
+}
+.side-1{
+	height: 100vh;
+	width: 17%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	overflow-y:hidden;
+}
+.side-1:hover{
+	overflow-y: scroll;
+}
+.text-bold{
+	font-weight: 700;
+	font-size: 90%;
+}
+.side-1 i{
+	font-size: 140%;
+}
+.side-1 .list-inline-item:hover:not(.head){
+	background-color: #fff;
+
+}
+nav .list-inline-item:hover{
+	background-color: #4267EE;
+}
+.side-2{
+	height: 100vh;
+	width: 17%;
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0
+	overflow:hidden;
+	padding: 5px;
+	border-left: 1px solid lightgrey;
+}
+.game{
+	padding-left: 10px;
+	overflow-y: hidden;
+	
+}
+.active{
+	height: 60vh;
+	overflow:hidden;
+}
+.active:hover{
+	overflow-y: scroll;
+}
+.mb-0{
+	margin-bottom: 0;
+}
+hr{
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+.center-1{
+	margin-left: 5px;
+	margin-top: 40px;
+	width: 38vw;
+	position: absolute;
+	top: 0;
+	left: 16vw;
+	padding: 10px;
+}
+.white-box{
+	padding: 10px;
+	background-color: #fff;
+	border-radius: 5px;
+}
+.white-box .pro{
+	width: 100%;
+}
+.center-1{
+	margin-left: 5px;
+	margin-top: 40px;
+	width: 38vw;
+	position: absolute;
+	top: 0;
+	left: 16vw;
+	padding: 10px;
+}
+.center-2{
+	margin-left: 5px;
+	margin-top: 32px;
+	width: 29vw;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 53vw;
+	padding: 10px;
+}
+.text-primary{
+	color: #4267b2 !important;
+}
+.badge-primary, .btn-primary{
+	background-color: #4267b2 !important;
+}
