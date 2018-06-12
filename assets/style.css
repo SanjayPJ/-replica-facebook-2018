@@ -38,6 +38,10 @@ body{
 .side-1:hover{
 	overflow-y: scroll;
 }
+.side-1::-webkit-scrollbar { 
+    display: none; 
+}
+
 .text-bold{
 	font-weight: 700;
 	font-size: 90%;
@@ -47,10 +51,9 @@ body{
 }
 .side-1 .list-inline-item:hover:not(.head){
 	background-color: #fff;
-
 }
 nav .list-inline-item:hover{
-	background-color: #4267EE;
+	color: #fff;
 }
 .side-2{
 	height: 100vh;
@@ -65,13 +68,16 @@ nav .list-inline-item:hover{
 }
 .game{
 	padding-left: 10px;
-	overflow-y: hidden;
-	
+	overflow-y: hidden;	
 }
 .active{
 	height: 60vh;
 	overflow:hidden;
 }
+.active::-webkit-scrollbar { 
+    display: none; 
+}
+
 .active:hover{
 	overflow-y: scroll;
 }
@@ -112,15 +118,22 @@ hr{
 	margin-left: 5px;
 	margin-top: 32px;
 	width: 29vw;
-	position: absolute;
+	position: fixed;
+	overflow-y: scroll;
 	top: 0;
 	bottom: 0;
 	left: 53vw;
 	padding: 10px;
+}
+.center-2::-webkit-scrollbar { 
+    display: none; 
 }
 .text-primary{
 	color: #4267b2 !important;
 }
 .badge-primary, .btn-primary{
 	background-color: #4267b2 !important;
+}
+.active .list-inline-item:hover{
+	background-color: #fff;
 }
